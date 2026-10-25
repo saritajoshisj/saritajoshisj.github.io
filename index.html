@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sarita Joshi | Health & Fitness Video Editor (M.Pharm)</title>
+<meta name="description" content="Sarita Joshi, M.Pharm (Pharmaceutics). Video editor and social media manager for doctors, clinics and health creators. Medically accurate edits with 3.3 lakh+ views.">
+<meta property="og:title" content="Sarita Joshi | Health & Fitness Video Editor">
+<meta property="og:description" content="Pharmacist turned video editor. Long-form YouTube, Reels, infographics and fact-checked captions for health creators.">
+<meta property="og:image" content="images/sarita.jpg">
+<link rel="icon" href="images/sarita.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0E1D2B; --navy-2:#152A3D; --navy-3:#1D3850;
+    --mint:#4FB89A; --mint-dark:#2F8C72; --gold:#E8C27A;
+    --paper:#F7F4EE; --paper-2:#EDE7DC; --ink:#14212D; --muted:#5D6B78; --line:#E2DBCF;
+    --radius:18px; --shadow:0 20px 44px rgba(14,29,43,.18);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;font-size:16.5px}
+  h1,h2,h3,.serif{font-family:'Fraunces',Georgia,serif;line-height:1.12;letter-spacing:-.01em}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{width:min(1140px,100% - 32px);margin-inline:auto}
+  section{padding:92px 0}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--mint-dark)}
+  .eyebrow::before{content:"";width:26px;height:2px;background:currentColor}
+  .dark .eyebrow{color:var(--gold)}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:10px;font-weight:600;font-size:15.5px;transition:transform .15s,background .15s}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-mint{background:var(--mint);color:#06231B}
+  .btn-mint:hover{background:#63c7aa}
+  .btn-line{border:1.5px solid rgba(247,244,238,.35);color:var(--paper)}
+  .btn-line:hover{border-color:var(--paper)}
+  .dark{background:var(--navy);color:var(--paper)}
+  .section-head{max-width:680px;margin-bottom:46px}
+  .section-head h2{font-size:clamp(32px,4.4vw,48px);font-weight:600;margin:14px 0 14px}
+  .section-head p{color:var(--muted);font-size:17px}
+  .dark .section-head p{color:rgba(247,244,238,.72)}
+
+  /* nav */
+  header{position:sticky;top:0;z-index:50;background:rgba(14,29,43,.95);backdrop-filter:blur(8px);color:var(--paper);border-bottom:1px solid rgba(255,255,255,.06)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:70px;gap:16px}
+  .brand b{display:block;font-size:15.5px;letter-spacing:.08em;text-transform:uppercase}
+  .brand small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mint)}
+  .nav-links{display:flex;gap:28px;align-items:center;font-size:15px;font-weight:500}
+  .nav-links a:not(.btn){opacity:.85}
+  .nav-links a:not(.btn):hover{opacity:1;color:var(--mint)}
+  .nav-links .btn{padding:9px 16px;font-size:14.5px}
+
+  /* hero */
+  .hero{background:radial-gradient(900px 480px at 90% -10%,var(--navy-3),transparent 65%),var(--navy);color:var(--paper);padding:84px 0 100px}
+  .hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:60px;align-items:center}
+  .hero h1{font-size:clamp(40px,5.8vw,66px);font-weight:600;margin:20px 0 22px}
+  .hero h1 em{font-style:italic;color:var(--mint)}
+  .hero .lead{font-size:18.5px;color:rgba(247,244,238,.82);max-width:560px}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin:32px 0 28px}
+  .checks{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:14.5px;color:rgba(247,244,238,.85)}
+  .checks span::before{content:"✓";display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:rgba(79,184,154,.18);color:var(--mint);font-size:12px;font-weight:700;margin-right:8px}
+  .profile{background:var(--paper);color:var(--ink);border-radius:24px;padding:14px 14px 24px;box-shadow:0 30px 60px rgba(0,0,0,.35)}
+  .profile .photo{border-radius:16px;overflow:hidden;aspect-ratio:1/1;background:#cfd3d8}
+  .profile .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+  .profile .meta{text-align:center;padding-top:18px}
+  .profile .tag{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--mint-dark);font-weight:700}
+  .profile h3{font-size:30px;color:var(--navy);margin:6px 0 4px;font-weight:600}
+  .profile p{color:var(--muted);font-size:14.5px}
+  .rx{display:inline-flex;align-items:center;gap:8px;margin-top:14px;background:#FBF1DC;border:1px solid #EBD3A0;color:#7A5410;padding:7px 14px;border-radius:999px;font-weight:600;font-size:13.5px}
+
+  /* numbers strip */
+  .strip{background:var(--navy-2);color:var(--paper)}
+  .strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+  .num{padding:30px 16px;text-align:center;border-right:1px solid rgba(255,255,255,.08)}
+  .num:last-child{border-right:0}
+  .num b{display:block;font-family:'Fraunces',serif;font-size:36px;font-weight:600;color:var(--gold);line-height:1.1}
+  .num span{font-size:13.5px;color:rgba(247,244,238,.72)}
+
+  /* services */
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .s-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;transition:transform .2s,box-shadow .2s}
+  .s-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .s-card .ic{width:46px;height:46px;border-radius:12px;background:#E3F3EE;color:var(--mint-dark);display:grid;place-items:center;margin-bottom:18px}
+  .s-card .ic svg{width:22px;height:22px}
+  .s-card .k{font-size:12px;font-weight:700;letter-spacing:.14em;color:var(--mint-dark)}
+  .s-card h3{font-size:22px;font-weight:600;margin:6px 0 8px;color:var(--navy)}
+  .s-card p{color:var(--muted);font-size:15px}
+
+  /* projects */
+  .project{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+  .project h2{font-size:clamp(32px,4.4vw,48px);font-weight:600;margin:14px 0 12px}
+  .project .sub{color:rgba(247,244,238,.75);font-size:17px;margin-bottom:24px}
+  .kpis{display:flex;gap:14px;margin-bottom:24px;flex-wrap:wrap}
+  .kpi{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:14px 18px}
+  .kpi b{display:block;font-family:'Fraunces',serif;font-size:30px;color:var(--gold);line-height:1.1}
+  .kpi span{font-size:13px;color:rgba(247,244,238,.7)}
+  .ticks{list-style:none;display:grid;gap:10px}
+  .ticks li{padding-left:28px;position:relative;font-size:15.5px}
+  .ticks li::before{content:"";position:absolute;left:0;top:7px;width:14px;height:14px;border-radius:4px;background:var(--mint)}
+  .dark .ticks li{color:rgba(247,244,238,.88)}
+  .vids{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  .vid{display:block;border-radius:14px;overflow:hidden;background:var(--navy-2);border:1px solid rgba(255,255,255,.08);transition:transform .2s}
+  .vid:hover{transform:translateY(-3px)}
+  .vid .th{position:relative;aspect-ratio:16/9;overflow:hidden;background:#0a1520}
+  .vid .th img{width:100%;height:100%;object-fit:cover}
+  .vid .dur{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.8);color:#fff;font-size:12px;font-weight:600;padding:2px 7px;border-radius:5px}
+  .vid .play{position:absolute;inset:0;display:grid;place-items:center;opacity:0;transition:opacity .2s;background:rgba(0,0,0,.25)}
+  .vid:hover .play{opacity:1}
+  .vid .play i{width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center}
+  .vid .play i::after{content:"";border-left:16px solid var(--navy);border-top:10px solid transparent;border-bottom:10px solid transparent;margin-left:4px}
+  .vid .info{padding:12px 14px 14px}
+  .vid .t{font-size:14.5px;font-weight:600;line-height:1.35;color:var(--paper)}
+  .vid .v{font-size:13px;color:var(--mint);margin-top:4px;font-weight:600}
+  .vid.feature{grid-column:1/-1}
+  .vid.feature .t{font-size:17px}
+  .note{font-size:13px;color:rgba(247,244,238,.55);margin-top:14px}
+  .note a{color:var(--mint);font-weight:600}
+
+  .light-proj{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .p-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:34px}
+  .p-card .eyebrow{font-size:11.5px}
+  .p-card h3{font-size:32px;font-weight:600;color:var(--navy);margin:12px 0 8px}
+  .p-card .sub{color:var(--muted);margin-bottom:20px}
+  .p-card .kpis .kpi{background:var(--paper);border-color:var(--line)}
+  .p-card .kpis .kpi b{color:var(--mint-dark)}
+  .p-card .kpis .kpi span{color:var(--muted)}
+  .p-card .ticks li{color:#34424F}
+  .mini-vids{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}
+  .mini-vids a{border-radius:10px;overflow:hidden;position:relative;aspect-ratio:16/9;display:block;background:#ddd}
+  .mini-vids img{width:100%;height:100%;object-fit:cover}
+  .mini-vids span{position:absolute;left:6px;bottom:6px;background:rgba(0,0,0,.75);color:#fff;font-size:11px;font-weight:600;padding:1px 6px;border-radius:4px}
+  .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .links a{font-size:14px;font-weight:600;color:var(--mint-dark);border:1.5px solid #BFE3D7;padding:8px 14px;border-radius:9px}
+  .links a:hover{background:#E3F3EE}
+
+  /* why */
+  .why-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px;align-items:start}
+  .bg-card{background:var(--navy);color:var(--paper);border-radius:22px;padding:34px}
+  .bg-card h3{font-size:26px;font-weight:600;margin:12px 0 20px}
+  .bg-row{display:flex;gap:14px;padding:14px 0;border-top:1px solid rgba(255,255,255,.1)}
+  .bg-row b{font-family:'Fraunces',serif;color:var(--gold);font-size:20px;min-width:74px}
+  .bg-row span{color:rgba(247,244,238,.85);font-size:15px}
+  .reasons{display:grid;gap:14px}
+  .reason{display:flex;gap:18px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+  .reason .n{font-family:'Fraunces',serif;font-size:28px;color:var(--mint-dark);line-height:1;min-width:30px}
+  .reason h3{font-size:19px;font-weight:600;color:var(--navy);margin-bottom:4px}
+  .reason p{color:var(--muted);font-size:15px}
+
+  /* contact */
+  .contact{text-align:center}
+  .contact h2{font-size:clamp(34px,5vw,54px);font-weight:600;margin:14px 0 14px}
+  .contact h2 em{font-style:italic;color:var(--mint)}
+  .contact .lead{color:rgba(247,244,238,.78);max-width:560px;margin:0 auto 18px;font-size:17px}
+  .offer{display:inline-block;background:rgba(232,194,122,.14);border:1px solid rgba(232,194,122,.4);color:var(--gold);padding:8px 16px;border-radius:999px;font-weight:600;font-size:14.5px;margin-bottom:30px}
+  .c-cards{display:grid;grid-template-columns:repeat(2,minmax(0,330px));justify-content:center;gap:16px}
+  .c-card{display:flex;align-items:center;gap:14px;text-align:left;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:18px 20px;transition:border-color .2s}
+  .c-card:hover{border-color:var(--mint)}
+  .c-card .ic{width:44px;height:44px;border-radius:12px;background:var(--mint);color:#06231B;display:grid;place-items:center;flex:none;font-weight:800}
+  .c-card .ic svg{width:20px;height:20px}
+  .c-card small{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:rgba(247,244,238,.6)}
+  .c-card b{font-size:15px;word-break:break-all}
+  footer{background:var(--navy);color:rgba(247,244,238,.5);text-align:center;font-size:13.5px;padding:24px 0 34px;border-top:1px solid rgba(255,255,255,.06)}
+
+  @media (max-width:940px){
+    .hero-grid,.project,.light-proj,.why-grid{grid-template-columns:1fr}
+    .hero .profile{max-width:400px;width:100%;margin-inline:auto}
+    .grid-3{grid-template-columns:repeat(2,1fr)}
+    .strip .wrap{grid-template-columns:repeat(2,1fr)}
+    .num:nth-child(2){border-right:0}
+    .num:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.08)}
+    .nav-links a:not(.btn){display:none}
+  }
+  @media (max-width:600px){
+    section{padding:64px 0}
+    .hero{padding:52px 0 70px}
+    .grid-3,.vids,.c-cards{grid-template-columns:1fr}
+    .p-card,.bg-card{padding:26px 22px}
+    .num b{font-size:30px}
+    .brand small{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="brand"><b>Sarita Joshi</b><small>Health &amp; Fitness Video Editor</small></a>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn btn-mint">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow" style="color:var(--gold)">Portfolio 2026 · Health &amp; fitness video editing</span>
+        <h1>Videos that make health science <em>easy to follow.</em></h1>
+        <p class="lead">I'm Sarita Joshi, a pharmacist turned video editor with an M.Pharm in Pharmaceutics. I edit and manage content for doctors, clinics, pharma brands and health educators on YouTube, Instagram and LinkedIn.</p>
+        <div class="hero-ctas">
+          <a href="#work" class="btn btn-mint">See my work ↗</a>
+          <a href="#contact" class="btn btn-line">Get a free sample reel</a>
+        </div>
+        <div class="checks"><span>Medically accurate edits</span><span>Long-form &amp; Reels</span><span>Infographics &amp; B-roll</span></div>
+      </div>
+
+      <div class="profile">
+        <div class="photo"><img src="images/sarita.jpg" alt="Sarita Joshi"></div>
+        <div class="meta">
+          <div class="tag">Meet your editor</div>
+          <h3>Sarita Joshi</h3>
+          <p>Video Editor &amp; Social Media Manager for Health Creators</p>
+          <div class="rx">℞ M.Pharm, Pharmaceutics</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="strip">
+    <div class="wrap">
+      <div class="num"><b>3.3L+</b><span>views on videos I edited</span></div>
+      <div class="num"><b>19–39</b><span>minute long-form videos</span></div>
+      <div class="num"><b>6,000+</b><span>Instagram followers grown</span></div>
+      <div class="num"><b>217</b><span>videos on our own channel</span></div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">What I do</span>
+        <h2>Everything your health channel needs, in one place.</h2>
+        <p>Long videos, Reels, infographics and posting, handled together by someone who understands the science.</p>
+      </div>
+      <div class="grid-3">
+        <div class="s-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="m10 9 5 3-5 3z"/></svg></div>
+          <div class="k">01 / LONG-FORM</div><h3>YouTube editing</h3>
+          <p>20–40 minute talking-head and explainer videos, cleanly cut and well paced.</p>
+        </div>
+        <div class="s-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
+          <div class="k">02 / VISUALS</div><h3>Infographics &amp; B-roll</h3>
+          <p>Visual-heavy graphics and B-roll that explain studies, numbers and science simply.</p>
+        </div>
+        <div class="s-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg></div>
+          <div class="k">03 / SHORT-FORM</div><h3>Reels &amp; Shorts</h3>
+          <p>Vertical cuts with a strong hook, captions and on-screen text.</p>
+        </div>
+        <div class="s-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></div>
+          <div class="k">04 / PLANNING</div><h3>Transcription &amp; scripting help</h3>
+          <p>Transcripts, edit plans and research notes for every video.</p>
+        </div>
+        <div class="s-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></div>
+          <div class="k">05 / ACCURACY</div><h3>Fact-checked captions</h3>
+          <p>Drug names, medical terms and numbers on screen checked for accuracy.</p>
+        </div>
+        <div class="s-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></div>
+          <div class="k">06 / SOCIAL</div><h3>Social media management</h3>
+          <p>Posting, scheduling, captions and channel uploads with titles and descriptions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="dark">
+    <div class="wrap project">
+      <div>
+        <span class="eyebrow">Project 02 · Video editor · Aug 2026 – present</span>
+        <h2>Logical Fit</h2>
+        <p class="sub">A science-based fitness and nutrition YouTube channel. I edit the channel's long-form videos, from the creator's cut footage to the final upload-ready video.</p>
+        <div class="kpis">
+          <div class="kpi"><b>3.3L+</b><span>total views on videos I edited</span></div>
+          <div class="kpi"><b>19–39</b><span>minutes per video</span></div>
+        </div>
+        <ul class="ticks">
+          <li>B-roll, pacing, sound and final export on the creator's cut footage</li>
+          <li>Comfortable cutting raw footage too, using AutoCut for clean jump-cuts</li>
+          <li>Transcript-based edit plan with B-roll roughly every 20 seconds</li>
+          <li>Visual-heavy infographics to explain studies and numbers</li>
+          <li>Clean, credible style as per the creator's brief, no flashy effects</li>
+          <li>Medical and nutrition facts on screen checked against research</li>
+        </ul>
+      </div>
+      <div>
+        <div class="vids">
+          <a class="vid feature" href="https://youtu.be/wNiHXfNlEnk" target="_blank" rel="noopener">
+            <div class="th"><img src="https://i.ytimg.com/vi/wNiHXfNlEnk/hqdefault.jpg" alt="" loading="lazy"><span class="dur">34:00</span><span class="play"><i></i></span></div>
+            <div class="info"><div class="t">The ONLY Muscle Gain Video You'll Ever Need (No Clickbait)</div><div class="v">88K views · most-viewed video I edited</div></div>
+          </a>
+          <a class="vid" href="https://youtu.be/6eZ9emRVbuk" target="_blank" rel="noopener">
+            <div class="th"><img src="https://i.ytimg.com/vi/6eZ9emRVbuk/hqdefault.jpg" alt="" loading="lazy"><span class="dur">19 min</span><span class="play"><i></i></span></div>
+            <div class="info"><div class="t">What Does Science ACTUALLY Say About Protein And Long Life?</div><div class="v">83K views</div></div>
+          </a>
+          <a class="vid" href="https://youtu.be/PbXrjNus_X4" target="_blank" rel="noopener">
+            <div class="th"><img src="https://i.ytimg.com/vi/PbXrjNus_X4/hqdefault.jpg" alt="" loading="lazy"><span class="dur">31 min</span><span class="play"><i></i></span></div>
+            <div class="info"><div class="t">Women's Fitness &amp; Nutrition Guide: 20s to 70+</div><div class="v">82K views</div></div>
+          </a>
+          <a class="vid" href="https://youtu.be/AgrjP5HWSpk" target="_blank" rel="noopener">
+            <div class="th"><img src="https://i.ytimg.com/vi/AgrjP5HWSpk/hqdefault.jpg" alt="" loading="lazy"><span class="dur">39 min</span><span class="play"><i></i></span></div>
+            <div class="info"><div class="t">The ONLY Fat Loss Video You'll Ever Need</div><div class="v">52K views</div></div>
+          </a>
+          <a class="vid" href="https://youtu.be/7AbrNMRrr-w" target="_blank" rel="noopener">
+            <div class="th"><img src="https://i.ytimg.com/vi/7AbrNMRrr-w/hqdefault.jpg" alt="" loading="lazy"><span class="dur">36 min</span><span class="play"><i></i></span></div>
+            <div class="info"><div class="t">The Diet Ladder: Worst to Best Diets According to Science</div><div class="v">28K views</div></div>
+          </a>
+        </div>
+        <p class="note">View counts as of 23 Oct 2026 · <a href="https://www.youtube.com/@LogicalFit" target="_blank" rel="noopener">Watch the full channel ↗</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">More projects</span>
+        <h2>Brands and channels I've built content for.</h2>
+      </div>
+      <div class="light-proj">
+        <div class="p-card">
+          <span class="eyebrow">Our own channel · Co-founder · Ongoing</span>
+          <h3>Vitamin Couple</h3>
+          <p class="sub">Our own Hindi/Hinglish channel that fact-checks viral health claims and makes nutrition science fun, in collaboration with BioShala. Fact-checked by 2 pharmacy professors (Pharmaceutics &amp; Medicinal Chemistry).</p>
+          <div class="kpis">
+            <div class="kpi"><b>2.1K+</b><span>YouTube subscribers</span></div>
+            <div class="kpi"><b>217</b><span>videos published</span></div>
+            <div class="kpi"><b>1.8K+</b><span>Instagram followers</span></div>
+          </div>
+          <ul class="ticks">
+            <li>Reelbaazi: fact-checking viral health reels and influencer claims</li>
+            <li>Khel Khel Main &amp; Vitamin Quiz Show: nutrition and pharmacy quiz episodes</li>
+            <li>Researching tricky quiz questions on pharmacy and nutrition</li>
+            <li>Video editing, uploads, titles and descriptions</li>
+          </ul>
+          <div class="mini-vids">
+            <a href="https://youtu.be/rcrFytEwbw8" target="_blank" rel="noopener" title="Cancer Fear-Mongering Exposed | Reelbaazi"><img src="https://i.ytimg.com/vi/rcrFytEwbw8/hqdefault.jpg" alt="Cancer Fear-Mongering Exposed" loading="lazy"><span>16K views</span></a>
+            <a href="https://youtu.be/SAkS_S4aSAs" target="_blank" rel="noopener" title="Ghee with Milk Lubricates Your Stomach?"><img src="https://i.ytimg.com/vi/SAkS_S4aSAs/hqdefault.jpg" alt="Ghee with Milk Lubricates Your Stomach?" loading="lazy"><span>15K views</span></a>
+            <a href="https://youtu.be/0GpTTgrNgeI" target="_blank" rel="noopener" title="White Sugar mein Bone Char? Fact Check"><img src="https://i.ytimg.com/vi/0GpTTgrNgeI/hqdefault.jpg" alt="White Sugar mein Bone Char?" loading="lazy"><span>14K views</span></a>
+          </div>
+          <div class="links">
+            <a href="https://www.youtube.com/@vitamincouple_vc" target="_blank" rel="noopener">YouTube ↗</a>
+            <a href="https://www.instagram.com/vitamin.couple/" target="_blank" rel="noopener">Instagram ↗</a>
+          </div>
+        </div>
+
+        <div class="p-card">
+          <span class="eyebrow">Project 01 · 4-month project</span>
+          <h3>BioShala Replica</h3>
+          <p class="sub">Digital content and social media management for the BioShala science education brand.</p>
+          <div class="kpis">
+            <div class="kpi"><b>6,000+</b><span>Instagram followers reached in 4 months</span></div>
+          </div>
+          <ul class="ticks">
+            <li>Launched the BioShala Replica Instagram account from scratch</li>
+            <li>Managed day-to-day publishing and scheduling</li>
+            <li>Edited educational videos for YouTube and social media</li>
+            <li>Handled YouTube uploads, titles and descriptions</li>
+            <li>Set up and managed BioShala's LinkedIn, X and Snapchat profiles</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Why work with me</span>
+        <h2>Health content you can trust.</h2>
+        <p>A pharmacy background means the science on your screen stays correct, not just good-looking.</p>
+      </div>
+      <div class="why-grid">
+        <div class="bg-card">
+          <span class="eyebrow">Background</span>
+          <h3>Pharmacist turned video editor</h3>
+          <div class="bg-row"><b>87%</b><span>M.Pharm, Pharmaceutics · B.Pharm · D.Pharm</span></div>
+          <div class="bg-row"><b>~4 yrs</b><span>in pharmaceutical Quality Assurance</span></div>
+          <div class="bg-row"><b>3.5 yrs</b><span>as a pharmacy lecturer</span></div>
+        </div>
+        <div class="reasons">
+          <div class="reason"><div class="n">1</div><div><h3>Pharmacy background</h3><p>I understand medical terms and drug names, and I avoid misleading claims.</p></div></div>
+          <div class="reason"><div class="n">2</div><div><h3>Proven long-form experience</h3><p>19–39 minute science videos with 3.3 lakh+ combined views.</p></div></div>
+          <div class="reason"><div class="n">3</div><div><h3>Evidence first</h3><p>Visuals and on-screen facts checked against research, never against trends.</p></div></div>
+          <div class="reason"><div class="n">4</div><div><h3>Video + design + social in one place</h3><p>Long videos, Reels, infographics and posting handled together.</p></div></div>
+          <div class="reason"><div class="n">5</div><div><h3>On time, clear communication</h3><p>Organised, quick to reply and careful with details.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="dark contact">
+    <div class="wrap">
+      <span class="eyebrow">Let's work together</span>
+      <h2>Let's make your health content <em>shine.</em></h2>
+      <p class="lead">For doctors, clinics, pharma brands and health educators who want videos that are clear, credible and scientifically correct.</p>
+      <div class="offer">🎁 Free sample reel from one of your videos</div>
+      <div class="c-cards">
+        <a class="c-card" href="mailto:saritajoshisj1610@gmail.com">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+          <span><small>Email</small><b>saritajoshisj1610@gmail.com</b></span>
+        </a>
+        <a class="c-card" href="https://www.fiverr.com/siya_joshi1610" target="_blank" rel="noopener">
+          <span class="ic">fi</span>
+          <span><small>Fiverr</small><b>fiverr.com/siya_joshi1610</b></span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="yr">2026</span> Sarita Joshi · M.Pharm · Video Editor for Health Creators</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
